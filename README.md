@@ -1,10 +1,10 @@
-# Android Project 3 - *Name of App Here*
+# Android Project 3 - *Flixster*
 
-Submitted by: **Your Name Here**
+Submitted by: **Saanya Jauhri**
 
 **Name of your app** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Screen_recording_20260929_210030.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="Screen_recording_20260929_210030.gif" alt="Video Walkthrough" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
