@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class MovieAdapter(
     private val movies: List<Movie>
@@ -29,6 +30,12 @@ class MovieAdapter(
 
         holder.title.text = movie.title
         holder.overview.text = movie.overview
+
+        val posterUrl = "https://image.tmdb.org/t/p/w500${movie.posterPath}"
+
+        Glide.with(holder.itemView.context)
+            .load(posterUrl)
+            .into(holder.poster)
     }
 
     override fun getItemCount(): Int {
