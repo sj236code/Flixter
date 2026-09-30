@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.recyclerview.widget.RecyclerView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rvMovies"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="24dp"
-    android:clipToPadding="false" />
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBanner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#6200EE"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="FlixsterPlus"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMovies"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false" />
+
+</LinearLayout>
